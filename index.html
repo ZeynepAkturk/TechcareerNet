@@ -18,6 +18,64 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light NavBar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <a class="navbar-brand" href="#"><img src="/img/techcareer-logo.svg"></a>
+           
+            <form  class="form-inline my-3 my-lg-0 mx-lg-3 searchFormStyle"  >
+                <img src="/img/search.svg" alt="searchIcon">
+                <input class="form-control p-1 searchInput" type="search" placeholder="Etkinlik, İş İlanı, Blog Ara" aria-label="Search">
+              </form>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto navBarList">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false" >
+                      Etkinlikler
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Bootcamp</a>
+                      <a class="dropdown-item" href="#">Hackhathon</a>
+                      <a class="dropdown-item" href="#">Hiring Challenge</a>
+                      <a class="dropdown-item" href="#" > Tüm Etkinlikler</a>
+                  </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" role="button" data-toggle="tooltip"  title="Yeni işinle sen de hayalindeki kariyere kavuşabilirsin! Senin için topladığımız iş fırsatlarını şimdi incele!" data-bs-toggle="tooltip" data-bs-placement="bottom">
+                    İş İlanları
+                      </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <span style="color: var(--buton-rengi);">●</span>Eğitimler
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                      Komünite
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Komüniteye Katıl</a>
+                      <a class="dropdown-item" href="#">TDC</a>
+                      <a class="dropdown-item" href="#">Blog</a>
+                      <a class="dropdown-item " href="#" >Podcast</a>
+                      <a class="dropdown-item" href="#">Kariyer Rehberi</a>
+                      <a class="dropdown-item " href="#" >Teknik Sözlük</a>
+                  </li>
+               
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Şirketler                </a>
+                  </li>
+              </ul>
+            </div>
+            <form class="form-inline my-2 my-lg-0 ">
+                <button class="btn btn-outline-success my-2 my-sm-0 girisYapButton " type="submit">Giriş/ Üye Ol</button>
+              </form>
+          </nav>
+        </header>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

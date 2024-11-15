@@ -3,12 +3,12 @@
     position: relative; /* Konumlandırmayı etkinleştir */
     }
      
-      .indicatorStyle li{
+.indicatorStyle li{
        border-radius:50%;
        width:15px;
        height:15px;
       }
-      .indicatorStyle .active
+.indicatorStyle .active
       {
         background-color: var(--buton-rengi);
       }
@@ -41,4 +41,49 @@
     border:1px solid #293349;
     border-radius:50%;
     padding: 2px;
+}
+
+.bannerStyle img
+{
+    width: 98px;
+    height: 98px;
+}
+
+
+.formCardStyle
+{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-color:#293349 ;
+    color:#FFFFFF; 
+    padding:50px; 
+    text-align: center;
+}
+
+.formCardStyle .input-group
+{
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.formCardStyle input{
+    border:none;
+    text-align: left;
+
+}
+.formCardStyle button{
+    border:none;
+    border-radius: 5px;
+    background-color: var(--buton-rengi);
+    color: #F6F6F6;
+}
+.formCardStyle a
+{
+    color: #F6F6F6;
+    text-decoration: none;
 }

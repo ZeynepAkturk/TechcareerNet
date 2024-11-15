@@ -1,0 +1,44 @@
+#carouselExampleIndicators .carousel-indicators {
+    bottom: -70px; /* Indicator'ları aşağıya taşı */
+    position: relative; /* Konumlandırmayı etkinleştir */
+    }
+     
+      .indicatorStyle li{
+       border-radius:50%;
+       width:15px;
+       height:15px;
+      }
+      .indicatorStyle .active
+      {
+        background-color: var(--buton-rengi);
+      }
+
+.carousel-control-prev .carouselPrevStyle{
+
+    transform:none;
+    opacity: 1;
+    width: 32px;
+    height: 32px ;
+    background-image: url(/img/homePageImage/sliderIcons/chevron-left.svg);
+    background-repeat: no-repeat;
+    background-position: center; background-color: #FFFFFF;
+    background-size: 20px;
+    border:1px solid #293349;
+    border-radius:50%;
+    padding: 2px; 
+}
+
+.carousel-control-next .carouselNextStyle{
+    transform:none;
+    opacity: 1; 
+    width: 32px;
+    height: 32px;
+    background-image: url(/img/homePageImage/sliderIcons/chevron-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    background-size: 20px; 
+    border:1px solid #293349;
+    border-radius:50%;
+    padding: 2px;
+}
